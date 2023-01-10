@@ -16,4 +16,8 @@ describe 'fizzbuzz' do
   it 'returns "Buzz" when passed 5' do 
     expect(5.fizzbuzz).to eq 'Buzz'
   end 
+
+  it 'returns "Fizzbuzz" when passed a number that is a multiple of both 3 and 5' do
+    expect(15.fizzbuzz).to eq 'FizzBuzz'
+  end 
 end
